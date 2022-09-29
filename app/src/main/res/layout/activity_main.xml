@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/bienvenido_a_mi_app_calculadora"
+            android:textSize="34dp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="228dp"
+            android:src="@drawable/calculadora" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/introduzca_el_primer_n_mero" />
+
+        <EditText
+            android:id="@+id/et_numero1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/numero_1"
+            android:inputType="numberDecimal" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/introduzca_el_segundo_n_mero"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/et_numero2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/numero_2"
+            android:inputType="numberDecimal" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/sum"
+                android:layout_width="95dp"
+                android:layout_height="wrap_content"
+                android:text="@string/sumar"
+                android:layout_marginLeft="9dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="2dp"
+                android:layout_marginTop="2dp" />
+
+            <Button
+                android:id="@+id/rest"
+                android:layout_width="95dp"
+                android:layout_height="wrap_content"
+                android:text="@string/restar"
+                android:layout_margin="2dp" />
+
+            <Button
+                android:id="@+id/mult"
+                android:layout_width="95dp"
+                android:layout_height="wrap_content"
+                android:text="@string/multiplicar"
+                android:layout_margin="2dp" />
+
+            <Button
+                android:id="@+id/div"
+                android:layout_width="95dp"
+                android:layout_height="wrap_content"
+                android:text="@string/dividir"
+                android:layout_margin="2dp" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/el_resultado_es"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/tv_respuesta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24dp"
+            android:layout_gravity="center_horizontal"
+            android:textAlignment="center"
+            />
+    </LinearLayout>
+</layout>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">MyCalculator</string>
+    <string name="bienvenido_a_mi_app_calculadora">Welcome to my app calculator</string>
+    <string name="introduzca_el_primer_n_mero">Write first number:</string>
+    <string name="numero_1">Number 1</string>
+    <string name="introduzca_el_segundo_n_mero">Write second number:</string>
+    <string name="numero_2">Number 2</string>
+    <string name="sumar">Sum</string>
+    <string name="restar">Deduct</string>
+    <string name="multiplicar">Mult</string>
+    <string name="dividir">Divide</string>
+    <string name="el_resultado_es">Result:</string>
+    <string name="no_num_1">Number 1 empty</string>
+    <string name="no_num_2">Number 2 empty</string>
+    <string name="no_nums">Numbers empty</string>
+</resources>
